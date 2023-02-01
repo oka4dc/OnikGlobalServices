@@ -25,6 +25,10 @@ def Services():
 def Contact():
     return render_template('contact.html')
 
+@app.route('/careers.html')
+def Careers():
+    return render_template('careers.html')
+
 
 
 
