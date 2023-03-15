@@ -29,6 +29,10 @@ def Contact():
 def Careers():
     return render_template('careers.html')
 
+@app.route('/portfolio.html')
+def portfolio():
+    return render_template('portfolio.html')
+
 
 if __name__ == "__main__":
         app.run()
